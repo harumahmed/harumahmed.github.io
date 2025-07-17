@@ -3446,15 +3446,12 @@ input, select, textarea {
 					}
 
 			#banner > .inner .content {
-				display: -moz-flex;
-				display: -webkit-flex;
-				display: -ms-flex;
 				display: flex;
-				-moz-align-items: center;
-				-webkit-align-items: center;
-				-ms-align-items: center;
+				justify-content: center;
 				align-items: center;
-				margin: 0 0 2em 0;
+				text-align: center;
+				width: 100%;
+				margin: 2em auto 0 auto;
 			}
 
 				#banner > .inner .content > * {
