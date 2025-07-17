@@ -2935,7 +2935,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: #0a1205;
 		}
 
 			.spotlights > section > .image {
@@ -3408,7 +3408,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.40;
+			opacity: 0.85;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3481,7 +3481,7 @@ input, select, textarea {
 		}
 
 			#banner.major.alt {
-				opacity: 1.0;
+				opacity: 0.95;
 			}
 
 		#banner.style1:after {
