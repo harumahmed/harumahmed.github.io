@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		background: #0a1205;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -117,7 +117,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "minerva-modern";
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
@@ -3111,7 +3111,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2a2f4a;
+		background-color: #0a1205;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
@@ -3142,7 +3142,7 @@ input, select, textarea {
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				background-color: #ffffff;
-				color: #242943;
+				color: #0a1205;
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
@@ -3150,11 +3150,11 @@ input, select, textarea {
 			}
 
 			#header .logo:hover strong {
-				background-color: #9bf1ff;
+				background-color: #9ba897;
 			}
 
 			#header .logo:active strong {
-				background-color: #53e3fb;
+				background-color: #577d4b;
 			}
 
 		#header nav {
@@ -3256,27 +3256,23 @@ input, select, textarea {
 		}
 
 			#header.alt.style1 .logo strong {
-				color: #6fc3df;
+				color: #6e806c;
 			}
 
 			#header.alt.style2 .logo strong {
-				color: #8d82c4;
+				color: #465c44;
 			}
 
 			#header.alt.style3 .logo strong {
-				color: #ec8d81;
+				color: #b2c9a5;
 			}
 
 			#header.alt.style4 .logo strong {
-				color: #e7b788;
+				color: #1d2e1c;
 			}
 
 			#header.alt.style5 .logo strong {
-				color: #8ea9e8;
-			}
-
-			#header.alt.style6 .logo strong {
-				color: #87c5a4;
+				color: #415c3f;
 			}
 
 		body.is-preload #header.alt {
@@ -3484,7 +3480,7 @@ input, select, textarea {
 		}
 
 			#banner.major.alt {
-				opacity: 0.90;
+				opacity: 1.0;
 			}
 
 		#banner.style1:after {
