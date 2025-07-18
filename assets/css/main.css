@@ -2228,6 +2228,7 @@ input, select, textarea {
 	
 	.extra-images img {
 	  width: 300px;
+	  max-width: 100%;
 	  height: auto;
 	  border-radius: 4px;
 	  object-fit: cover;
