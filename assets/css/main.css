@@ -2217,6 +2217,13 @@ input, select, textarea {
 				}
 
 			}
+	.extra-images {
+	  display: flex;
+	  justify-content: center; /* centers the image group horizontally */
+	  flex-wrap: wrap;         /* allows wrapping on small screens */
+	  gap: 1em;                /* space between images */
+	  margin-top: 2em;         /* spacing from the paragraph */
+	}
 
 /* List */
 
@@ -2957,7 +2964,7 @@ input, select, textarea {
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 50%;
+				width: 60%;
 			}
 
 				.spotlights > section > .image img {
@@ -2995,7 +3002,7 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				padding:4em 4em 4em 4em ;
+				padding: 4em 4em 4em 4em ;
 				width: 75%;
 			}
 
