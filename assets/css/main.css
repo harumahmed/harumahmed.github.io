@@ -3607,33 +3607,6 @@ input, select, textarea {
 			padding: 3em 0;
 		}
 
-	#banner {
-	  position: relative;
-	  overflow: hidden;
-	}
-	
-	#banner video#banner-video {
-	  position: absolute;
-	  top: 0;
-	  left: 0;
-	  min-width: 100%;
-	  min-height: 100%;
-	  width: auto;
-	  height: auto;
-	  object-fit: cover;
-	  z-index: 0;
-	  opacity: 0.6; /* adjust for brightness */
-	  pointer-events: none;
-	}
-	
-	#banner > .inner {
-	  position: relative;
-	  z-index: 2;
-	}
-	
-	#banner:after {
-	  display: none !important; /* disable the dark overlay */
-	}
 
 /* Main */
 
