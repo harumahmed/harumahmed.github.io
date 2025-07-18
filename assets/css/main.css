@@ -2984,8 +2984,8 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				padding: 2em 3em 0.1em 3em ;
-				width: 70%;
+				padding:4em 4em 4em 4em ;
+				width: 75%;
 			}
 
 				.spotlights > section > .content > .inner {
@@ -3573,6 +3573,11 @@ input, select, textarea {
 					padding: 8em 0 4em 0 ;
 				}
 
+		}
+		#banner.style2 {
+			height: 40vh;
+			min-height: 18em;
+			padding: 3em 0;
 		}
 
 /* Main */
