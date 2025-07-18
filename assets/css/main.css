@@ -2713,6 +2713,17 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
+	@media screen and (max-width: 736px) {
+	  .actions {
+	    display: flex;
+	    justify-content: center;
+	  }
+	
+	  .actions li {
+	    margin: 0 auto;
+	  }
+	}
+
 /* Tiles */
 
 	.tiles {
@@ -2946,7 +2957,7 @@ input, select, textarea {
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 30%;
+				width: 50%;
 			}
 
 				.spotlights > section > .image img {
@@ -3634,7 +3645,8 @@ input, select, textarea {
 			display: flex;
 			gap: 4rem;
 			flex-wrap: wrap;
-			justify-content: space-between;
+			justify-content: center;
+			text-align: center;
 		}
 
 			#contact > .inner > :nth-child(2n - 1) {
