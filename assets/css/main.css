@@ -3543,7 +3543,7 @@ input, select, textarea {
 			-webkit-transform: translateX(-0.5em);
 			-ms-transform: translateX(-0.5em);
 			transform: translateX(-0.5em);
-			opacity: 0;
+			opacity: 1.0;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3602,7 +3602,7 @@ input, select, textarea {
 
 		}
 		#banner.style2 {
-			height: 40vh;
+			height: 30vh;
 			min-height: 18em;
 			padding: 3em 0;
 		}
