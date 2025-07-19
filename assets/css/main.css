@@ -2982,6 +2982,7 @@ input, select, textarea {
 					width: 100%;
 				}
 
+ 
 				.spotlights > section > .image:before {
 					background: rgba(36, 41, 67, 0.9);
 					content: '';
