@@ -2982,6 +2982,12 @@ input, select, textarea {
 					width: 100%;
 				}
 
+				.spotlights > section > .image img {
+					height: 400px; /* or any height you prefer */
+					object-fit: cover; /* this makes sure the image fills without stretching */
+					width: 100%;
+				}
+
  
 				.spotlights > section > .image:before {
 					background: rgba(36, 41, 67, 0.9);
