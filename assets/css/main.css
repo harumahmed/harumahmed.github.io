@@ -3612,6 +3612,8 @@ input, select, textarea {
 			height: 30vh;
 			min-height: 15em;
 			padding: 3em 0;
+			background-image: none !important;
+			background-color: #465c44; /* Or your desired solid color */
 		}
 
 
