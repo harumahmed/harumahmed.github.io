@@ -2217,6 +2217,22 @@ input, select, textarea {
 				}
 
 			}
+	.extra-images {
+	  display: flex;
+	  justify-content: center;
+	  align-items: flex-start;
+	  gap: 1.5em;
+	  flex-wrap: wrap;
+	  margin-top: 2em;
+	}
+	
+	.extra-images img {
+	  width: 300px;
+	  max-width: 100%;
+	  height: auto;
+	  border-radius: 4px;
+	  object-fit: cover;
+	}
 
 /* List */
 
@@ -2957,7 +2973,7 @@ input, select, textarea {
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 50%;
+				width: 60%;
 			}
 
 				.spotlights > section > .image img {
@@ -2995,7 +3011,7 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				padding:4em 4em 4em 4em ;
+				padding: 4em 4em 4em 4em ;
 				width: 75%;
 			}
 
@@ -3590,6 +3606,7 @@ input, select, textarea {
 			min-height: 18em;
 			padding: 3em 0;
 		}
+
 
 /* Main */
 
