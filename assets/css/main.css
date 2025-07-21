@@ -1787,8 +1787,8 @@ input, select, textarea {
 				background-color: #ffffff;
 				display: block;
 				height: 2px;
-				margin: 0.325em 0 0.5em 0;
-				width: 100%;
+				margin: 0.325em auto 0.5em auto;
+				width: 50%;
 			}
 
 		header.major > p {
@@ -2654,7 +2654,7 @@ input, select, textarea {
 			input[type="button"].next:after,
 			button.next:after,
 			.button.next:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='36px' height='24px' viewBox='0 0 36 24' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %239bf1ff%3B stroke-width: 2px%3B %7D%3C/style%3E%3Cline x1='0' y1='12' x2='34' y2='12' /%3E%3Cline x1='25' y1='4' x2='34' y2='12.5' /%3E%3Cline x1='25' y1='20' x2='34' y2='11.5' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='36px' height='24px' viewBox='0 0 36 24' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %239ba897%3B stroke-width: 2px%3B %7D%3C/style%3E%3Cline x1='0' y1='12' x2='34' y2='12' /%3E%3Cline x1='25' y1='4' x2='34' y2='12.5' /%3E%3Cline x1='25' y1='20' x2='34' y2='11.5' /%3E%3C/svg%3E");
 				transform: rotate(90deg);
 				opacity: 0;
 				z-index: 1;
@@ -2864,7 +2864,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #465c44;
+				background-color:  #1d2e1c;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
@@ -2873,7 +2873,7 @@ input, select, textarea {
 
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #1d2e1c;
+				background-color: #465c44;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
@@ -3959,7 +3959,7 @@ input, select, textarea {
 			}
 
 			#menu .close:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %239bf1ff%3B stroke-width: 2%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='20' y2='20' /%3E%3Cline x1='20' y1='0' x2='0' y2='20' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %239ba897%3B stroke-width: 2%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='20' y2='20' /%3E%3Cline x1='20' y1='0' x2='0' y2='20' /%3E%3C/svg%3E");
 				opacity: 0;
 			}
 
