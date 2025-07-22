@@ -13,6 +13,31 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+		<style>
+			  .image-row {
+			    display: flex;
+			    justify-content: center;
+			    gap: 1em;
+			    margin-bottom: 2em;
+			    flex-wrap: wrap;
+			  }
+			
+			  .image-row img {
+			    width: 40%;
+			    height: 400px;
+			    object-fit: cover;
+			    border-radius: 8px;
+			  }
+			
+			  /* Responsive fix only for phones */
+			  @media screen and (max-width: 736px) {
+			    .image-row img {
+			      width: 90%;
+			      height: auto;
+			      aspect-ratio: 4 / 3;
+			    }
+			  }
+			</style>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -46,9 +71,9 @@
 										<h1>Teaching & Outreach</h1>
 										<p style="margin-top: 1em;"><i>"The universe is under no obligation to make sense to you." - Neil deGrasse Tyson</i></p>
 									</header>
-									<div style="display: flex; justify-content: center; gap: 1em; margin-bottom: 2em; flex-wrap: wrap;">
-									  <img src="images/pic16.jpg" alt="" style="flex: 1 1 300px; max-width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px;" />
-									  <img src="images/pic17.jpg" alt="" style="flex: 1 1 300px; max-width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px;" />
+									<div class="image-row">
+									  <img src="images/pic16.jpg" alt="" />
+									  <img src="images/pic17.jpg" alt="" />
 									</div>
 									<h3>T E A C H I N G</h3>
 									<p>As a Teaching Assistant for Introductory Astronomy Labs at the University of North Texas, I lead weekly in-person sessions for over 300 students, 
