@@ -13,6 +13,31 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+		<style>
+			  .image-row {
+			    display: flex;
+			    justify-content: center;
+			    gap: 1em;
+			    margin-bottom: 2em;
+			    flex-wrap: wrap;
+			  }
+			
+			  .image-row img {
+			    width: 40%;
+			    height: 400px;
+			    object-fit: cover;
+			    border-radius: 8px;
+			  }
+			
+			  /* Responsive fix only for phones */
+			  @media screen and (max-width: 736px) {
+			    .image-row img {
+			      width: 90%;
+			      height: auto;
+			      aspect-ratio: 4 / 3;
+			    }
+			  }
+			</style>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -42,13 +67,13 @@
 						<!-- One -->
 							<section id="one">
 								<div class="inner">
-									<header class="major">
+									<header class="major" style="width: 100%; white-space: normal;">
 										<h1>Teaching & Outreach</h1>
-										<p><i>"The universe is under no obligation to make sense to you." - Neil deGrasse Tyson</i></p>
+										<p style="margin-top: 1em;"><i>"The universe is under no obligation to make sense to you." - Neil deGrasse Tyson</i></p>
 									</header>
-									<div style="display: flex; justify-content: center; gap: 1em; margin-bottom: 2em; flex-wrap: wrap;">
-										  <img src="images/pic16.jpg" alt="" style="width: 40%; height: 400px; object-fit: cover; border-radius: 8px;" />
-										  <img src="images/pic17.jpg" alt="" style="width: 40%; height: 400px; object-fit: cover; border-radius: 8px;" />
+									<div class="image-row">
+									  <img src="images/pic16.jpg" alt="" />
+									  <img src="images/pic17.jpg" alt="" />
 									</div>
 									<h3>T E A C H I N G</h3>
 									<p>As a Teaching Assistant for Introductory Astronomy Labs at the University of North Texas, I lead weekly in-person sessions for over 300 students, 
@@ -94,7 +119,7 @@
 							<ul class="icons">
 								<li><a href="https://www.instagram.com/astro_harum?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
 							
-								<li><a href="https://www.linkedin.com/in/harum-ahmed-519326228" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://www.linkedin.com/in/harum-ahmed/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 							</ul>
 							<ul class="copyright">
 								<li>&copy; Harum Ahmed</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
